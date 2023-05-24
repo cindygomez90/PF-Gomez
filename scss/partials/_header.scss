@@ -1,0 +1,17 @@
+header {
+    background-color: #88958D;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;    
+}
+
+@media (max-width: 991px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    
+    }
+}

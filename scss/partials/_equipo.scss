@@ -1,0 +1,25 @@
+.equipo-img {
+    display: block;
+    margin: 80px;
+    border-radius: 50%;
+}
+
+i {
+    text-align: center;
+}
+
+.ing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+@media (min-width: 780px){
+    .ing {
+        display: flex;
+        flex-direction: row;
+    }
+}

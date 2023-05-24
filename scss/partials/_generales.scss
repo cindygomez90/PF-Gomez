@@ -1,0 +1,53 @@
+/*Reseteo CSS*/
+* {
+    margin: o;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Kulim Park', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.párrafo-cursiva {
+    font-style: italic;
+}
+
+.imagen-centrada {
+    display: block;
+    margin: 0 auto;
+}
+
+.seccion {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.texto-izquierda {
+    text-align: left;
+}
+
+.carousel-item img {
+    height: 250px;
+}
+
+@media (min-width: 780px) {
+    #carouselExample {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .carousel-item img {
+        height: 550px;
+    }
+}

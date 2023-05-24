@@ -1,0 +1,25 @@
+.formulario {
+    background-color:#88958D ;
+    border: solid 7px grey;
+    margin: 50px 100px;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.datos-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 780px){
+    .datos-contacto {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+

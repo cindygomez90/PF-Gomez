@@ -1,0 +1,25 @@
+.imagen-proyecto {
+    height: 400px;
+    width: 260px;
+    margin-left: 80px;
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.descrip-proy {
+    text-align: right;
+}
+
+@media (max-width: 780px){
+    .proyecto {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

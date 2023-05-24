@@ -1,0 +1,21 @@
+.servicios {
+    background-color: #88958D;
+    width: 270px;
+    height: 270px;
+    margin: 40px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.servicios-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios:hover {
+    transform: scale(1.2);
+}

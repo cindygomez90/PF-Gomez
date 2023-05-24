@@ -1,0 +1,192 @@
+@charset "UTF-8";
+.formulario {
+  background-color: #88958D;
+  border: solid 7px grey;
+  margin: 50px 100px;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+.datos-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 780px) {
+  .datos-contacto {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+.equipo-img {
+  display: block;
+  margin: 80px;
+  border-radius: 50%;
+}
+
+i {
+  text-align: center;
+}
+
+.ing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+@media (min-width: 780px) {
+  .ing {
+    display: flex;
+    flex-direction: row;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #88958D;
+}
+
+.iconos {
+  color: black;
+}
+
+/*Reseteo CSS*/
+* {
+  margin: o;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Hind Guntur", sans-serif;
+  font-family: "Kulim Park", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.párrafo-cursiva {
+  font-style: italic;
+}
+
+.imagen-centrada {
+  display: block;
+  margin: 0 auto;
+}
+
+.seccion {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.texto-izquierda {
+  text-align: left;
+}
+
+.carousel-item img {
+  height: 250px;
+}
+
+@media (min-width: 780px) {
+  #carouselExample {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .carousel-item img {
+    height: 550px;
+  }
+}
+header {
+  background-color: #88958D;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.imagen-colegio {
+  height: 80px;
+  margin: 100px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .imagen-colegio {
+    flex-direction: column;
+  }
+}
+.servicios {
+  background-color: #88958D;
+  width: 270px;
+  height: 270px;
+  margin: 40px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicios-padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios:hover {
+  transform: scale(1.2);
+}
+
+.imagen-proyecto {
+  height: 400px;
+  width: 260px;
+  margin-left: 80px;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 150px;
+}
+
+.descrip-proy {
+  text-align: right;
+}
+
+@media (max-width: 780px) {
+  .proyecto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
